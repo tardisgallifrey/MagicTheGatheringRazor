@@ -15603,13 +15603,33 @@
   "RootNamespace": "MagicTheGatheringRazor",
   "Documents": [
     {
+      "FilePath": "/home/tardis1/MagicTheGatheringRazor/Pages/Delete/Delete.cshtml",
+      "TargetPath": "Pages\\Delete\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/tardis1/MagicTheGatheringRazor/Pages/Read/Read.cshtml",
+      "TargetPath": "Pages\\Read\\Read.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/tardis1/MagicTheGatheringRazor/Pages/_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/tardis1/MagicTheGatheringRazor/Pages/Update/Update.cshtml",
+      "TargetPath": "Pages\\Update\\Update.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/tardis1/MagicTheGatheringRazor/Pages/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/tardis1/MagicTheGatheringRazor/Pages/Create/_Layout.cshtml",
+      "TargetPath": "Pages\\Create\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15635,6 +15655,11 @@
     {
       "FilePath": "/home/tardis1/MagicTheGatheringRazor/Pages/Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/tardis1/MagicTheGatheringRazor/Pages/Create/Create.cshtml",
+      "TargetPath": "Pages\\Create\\Create.cshtml",
       "FileKind": "mvc"
     }
   ],

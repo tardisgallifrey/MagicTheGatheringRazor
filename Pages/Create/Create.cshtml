@@ -1,0 +1,17 @@
+﻿@page
+@model MagicTheGatheringRazor.Pages.Create.CreateModel
+@{
+    Layout="_Layout";
+}
+
+
+<h1>Magic The Gathering, Add a Card Page</h1>
+<hr>
+<p>Soon, you'll be able to add a Magic The Gathering card on this page.</p>
+<form method="post">
+    <input asp-for="CardName" >
+    <input asp-for="CardRarity" > 
+    <input asp-for="CardSet_Name" >
+    <input type="submit">
+</form>
+<a href='javascript:history.go(-1)'>Return to previous page</a>
