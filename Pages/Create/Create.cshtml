@@ -1,5 +1,6 @@
 ﻿@page
 @model MagicTheGatheringRazor.Pages.Create.CreateModel
+@using MagicTheGathering.Models.Enums;
 @{
     Layout="_Layout";
 }
@@ -9,9 +10,13 @@
 <hr>
 <p>Soon, you'll be able to add a Magic The Gathering card on this page.</p>
 <form method="post">
-    <input asp-for="CardName" >
-    <input asp-for="CardRarity" > 
-    <input asp-for="CardSet_Name" >
-    <input type="submit">
+    Name of Card:<br>
+    <input asp-for="CardName" ><br>
+    Card Rarity:<br>
+    <select asp-for="CardRarity" asp-items="Html.GetEnumSelectList<Rarity>()">
+    <option CardRarity="">Select a Rare Type</option></select><br>
+    Card is in which Set?<br>
+    <input asp-for="CardSet_Name" ><br>
+    <input type="submit"><br>
 </form>
 <a href='javascript:history.go(-1)'>Return to previous page</a>
