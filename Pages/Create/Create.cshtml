@@ -8,7 +8,7 @@
 
 <h1>Magic The Gathering, Add a Card Page</h1>
 <hr>
-<p>Soon, you'll be able to add a Magic The Gathering card on this page.</p>
+<p>Enter the basic card information below.</p>
 <form method="post">
     Name of Card:<br>
     <input asp-for="CardName" ><br>
@@ -17,6 +17,18 @@
     <option CardRarity="">Select a Rare Type</option></select><br>
     Card is in which Set?<br>
     <input asp-for="CardSet_Name" ><br>
+    Power&nbsp;&nbsp;&nbsp;&nbsp;Toughness<br>
+    <input asp-for="CardPower" >/<input asp-for="CardToughness"><br>
+    Rules Text:<br>
+    <textarea 
+        data-val="true" 
+        data-val-maxlength="255"  
+        asp-for="CardRules" ></textarea><br>
+    Flavor Text: <br>
+    <textarea 
+        data-val="true" 
+        data-val-maxlength="255" 
+        asp-for="CardFlavor" ></textarea><br>
     <input type="submit"><br>
 </form>
 <a href='javascript:history.go(-1)'>Return to previous page</a>
